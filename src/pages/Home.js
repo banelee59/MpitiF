@@ -43,10 +43,33 @@ function Home() {
     };
   }, []);
 
-  const packages = [
+  const packages = [  {
+    name: "Standard Package (B)",
+    price: "Price starting from R75 - R105",
+    features: [
+      "Collection and Delivery of deceased",
+      "Cleaning and preparation of corpes",
+      "Administration of Death Certificate",
+      "Flat-Lid Coffin",
+      "Storage of deceased",
+      "2 Pole Tent or ( R1000 cash)",
+      "Back deco",
+      "Table",
+      "50 Chairs",
+      "50 Chair Covers",
+      "Burial Service",
+      "Plus R4000 in cash"
+      
+    ],
+    pricing: [
+      "Single Member * Age 18-59  R75\tAbove 60- R95",
+      "Member + Children *Age 18-59 R85\tAbove 60 – R105"
+    ]
+  },
+
     {
       name: "Standard Package (CA)",
-      price: "R2000",
+      price: "Price starting from R85 - R135",
       features: [
         "Collection and Delivery of deceased",
         "Cleaning and preparation of corpes",
@@ -59,49 +82,33 @@ function Home() {
         "50 Chairs",
         "50 Chair Covers",
         "50 Programmes",
-        "Burial Service"
+        "Burial Service",
+        "Plus R2000 in cash"
+        
       ],
       pricing: [
         "Single Member * Age 18-59  R85\t* 60-74  R105\t*75 -100  R120",
         "Member + Children *Age 18-59  R95\t*60 – 74  R110\t*75-100  R135"
       ]
     },
-    {
-      name: "Standard Package (B)",
-      price: "R4000",
-      features: [
-        "Collection and Delivery of deceased",
-        "Cleaning and preparation of corpes",
-        "Administration of Death Certificate",
-        "Flat-Lid Coffin",
-        "Storage of deceased",
-        "2 Pole Tent or ( R1000 cash)",
-        "Back deco",
-        "Table",
-        "50 Chairs",
-        "50 Chair Covers",
-        "Burial Service"
-      ],
-      pricing: [
-        "Single Member * Age 18-59  R75\tAbove 60- R95",
-        "Member + Children *Age 18-59 R85\tAbove 60 – R105"
-      ]
-    },
+  
     {
       name: "Package CB",
-      price: "R4000",
+      price: "Price starting from R115 - R175",
       features: [
         "Collection and Delivery of deceased",
         "Cleaning and preparation of corpes",
         "Administration of Death Certificate",
         "Half-View Casket",
         "Storage of deceased",
-        "2 Pole Tent or ( +-R1000 cash)",
+        "2 Pole Tent or ( R1000 cash)",
         "Back deco",
-        "Table & 50 chairs",
+        "Table",
+        "50 Chairs",
         "50 Chair Covers",
         "50 Programmes",
-        "Burial Service"
+        "Burial Service",
+        "Plus R4000 in cash"
       ],
       pricing: [
         "Single Member * Age 18-59  R115\t* 60-74  R135\t*75-Upwards R160",
@@ -110,7 +117,7 @@ function Home() {
     },
     {
       name: "Package D",
-      price: "R5000",
+      price: "Price starting from R180 - R210",
       features: [
         "Collection and Delivery of deceased",
         "Cleaning and preparation of corpes",
@@ -122,15 +129,16 @@ function Home() {
         "Table",
         "100 Chairs",
         "50 Chair Covers",
-        "50 Programmes"
+        "50 Programmes",
+        "Plus R5000 in cash"
       ],
       pricing: [
-        "Member * Age 18-59  R180\t* 60-99  R210"
+        "Single Member * Age 18-59  R180\t* 60-99  R210"
       ]
     },
     {
       name: "Package E",
-      price: "R6000",
+      price: "Price starting from R215 - R245",
       features: [
         "Collection and Delivery of deceased",
         "Cleaning and preparation of corpes",
@@ -142,7 +150,8 @@ function Home() {
         "Table",
         "100 Chairs",
         "50 Chair Covers",
-        "50 Programmes"
+        "50 Programmes",
+        "Plus R6000 in cash"
       ],
       pricing: [
         "Single Member * Age 18-59  R215\t* 60-99  R245"
@@ -230,7 +239,7 @@ function Home() {
             {packages.map((pkg, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-2xl font-semibold mb-4">{pkg.name}</h3>
-                <p className="text-xl font-bold mb-4 text-green-600">{pkg.price}</p>
+                <p className="text-xl mb-4 text-green-600">{pkg.price}</p>
                 {expandedPackage === index ? (
                   <>
                     <ul className="mb-6">
@@ -244,7 +253,7 @@ function Home() {
                     <div className="border-t pt-4">
                       <p className="font-semibold mb-2">Pricing:</p>
                       {pkg.pricing.map((price, i) => (
-                        <p key={i} className="text-sm">{price}</p>
+                        <p key={i} className="text-sm text-green-600">{price}</p>
                       ))}
                     </div>
                   </>

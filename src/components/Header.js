@@ -34,7 +34,7 @@ function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center">
-            <img src="/images/logo2.png" alt="Mpiti Funeral Logo" className="h-10 w-auto" />
+            <img src="/images/logo2.png" alt="Mpiti Funeral Logo" className="h-12 w-auto" />
           </Link>
           <div className="flex items-center">
             <nav className="hidden md:flex space-x-16 text-center mr-8">

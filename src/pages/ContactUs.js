@@ -34,23 +34,28 @@ flex flex-wrap">
           <div className="group">
             <h3 className="text-xl font-semibold mb-4 bg-green-600
 text-white py-2 px-4 inline-block transition-all duration-300
-group-hover:bg-green-700">Enquiries</h3>
-            <div className="space-y-2 transition-all duration-300
-group-hover:translate-x-2">
+group-hover:bg-green ">Enquiries</h3>
+            <div className="space-y-2 transition-all duration-300">
               <p className="flex items-center">
-                <FaPhone className="mr-2 text-green-600
-transition-transform duration-300 group-hover:scale-110" /> 083-488
-3908
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
+                  <FaPhone />
+                </span>
+                083-488 3908
               </p>
               <p className="flex items-center">
-                <FaEnvelope className="mr-2 text-green-600
-transition-transform duration-300 group-hover:scale-110" />
-mpitifunerals@gmail.com
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
+                  <FaEnvelope />
+                </span>
+                mpitifunerals@gmail.com
               </p>
               <p className="flex items-center">
-                <FaMapMarkerAlt className="mr-2 text-green-600
-transition-transform duration-300 group-hover:scale-110" />
-<strong>Business Hours:</strong>
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
+                  <FaMapMarkerAlt />
+                </span>
+                <strong>Business Hours:</strong>
               </p>
               <p className="ml-6">07H00 - 19H00 Weekdays</p>
               <p className="ml-6">08H00 - 14H00 Saturdays</p>
@@ -88,8 +93,8 @@ text-white py-2 px-4 inline-block">Email</h3>
             className="w-full mb-4 p-2 border border-gray-300 rounded h-32"
           />
           <button type="submit" className="bg-green-600 text-white
-py-2 px-6 rounded hover:bg-green-700 transition-colors
-duration-300">Send Message</button>
+py-2 px-6 rounded hover:bg-green-700 transition-colors duration-300
+">Send Message</button>
         </form>
       </div>
     </div>
@@ -97,4 +102,3 @@ duration-300">Send Message</button>
 }
 
 export default ContactUs;
-
