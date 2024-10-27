@@ -23,10 +23,10 @@ function About() {
           </div>
         </div>
 
-        <div className="cta bg-green-600 text-white p-6 rounded-lg mt-12 mb-12">
+        <div className="cta bg-purple text-white p-6 rounded-lg mt-12 mb-12">
           <h3 className="text-2xl font-semibold mb-2">Contact Us Today</h3>
           <p className="mb-4">For more information about our services, feel free to reach out!</p>
-          <Link to="/contact" className="inline-block bg-white text-green-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300">Get in Touch</Link>
+          <Link to="/contact" className="inline-block bg-white text-purple px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300">Get in Touch</Link>
         </div>
       </div>
 
@@ -38,13 +38,13 @@ function About() {
               <div className="team-member text-center">
                 <img src="/images/person2.jpg" alt="Mrs. B Mpiti" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
                 <h3 className="text-xl font-semibold">MRS. B MPITI</h3>
-                <p className="font-medium text-green-600">Director</p>
+                <p className="font-medium text-purple">Director</p>
                 <p className="mt-2">With over 20 years of experience, Mrs. Mpiti leads our team with compassion and dedication.</p>
               </div>
               <div className="team-member text-center">
                 <img src="/images/person.jpg" alt="Mr. J Smith" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
                 <h3 className="text-xl font-semibold">MR. J SMITH</h3>
-                <p className="font-medium text-green-600">Funeral Director</p>
+                <p className="font-medium text-purple">Funeral Director</p>
                 <p className="mt-2">Mr. Smith provides guidance and support to families during their time of need.</p>
               </div>
             </div>
@@ -54,16 +54,16 @@ function About() {
 
       <div className="mission-vision bg-white py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-green-700 text-center">Our Mission & Vision</h2>
+          <h2 className="text-3xl font-bold mb-12 text-purple text-center">Our Mission & Vision</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="mission bg-gray-100 rounded-lg p-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-semibold mb-4 text-green-600">Mission Statement</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-purple">Mission Statement</h3>
               <p className="text-lg leading-relaxed">
                 We strive to be the premier choice for funeral services, catering to businesses of all sizes, organizations, and individuals. Our goal is to contribute significantly to the growth of the South African economy and community development through our compassionate and professional services.
               </p>
             </div>
             <div className="vision bg-gray-100 rounded-lg p-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-semibold mb-4 text-green-600">Our Vision</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-purple">Our Vision</h3>
               <p className="text-lg leading-relaxed">
                 Mpiti's Funeral Home aspires to be recognized as the leading funeral service provider throughout South Africa. We aim to set the standard for compassionate care, innovative services, and community support in the funeral industry.
               </p>

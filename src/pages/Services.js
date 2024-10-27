@@ -24,7 +24,7 @@ function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl">
-              <div className="bg-green-600 h-2"></div>
+              <div className="bg-purple h-2"></div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">{service.name}</h3>
                 <p className="text-gray-600">{service.description}</p>
@@ -35,7 +35,7 @@ function Services() {
         <div className="text-center mt-16">
           <Link 
             to="/contact" 
-            className="inline-block bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 transition-colors duration-300 text-lg font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-1"
+            className="inline-block bg-purple text-white px-8 py-3 rounded-full hover:bg-purple transition-colors duration-300 text-lg font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-1"
           >
             Contact Us for More Information
           </Link>

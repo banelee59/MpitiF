@@ -188,7 +188,7 @@ function Home() {
             </p>
             <Link 
               to="/about"
-              className="inline-block bg-white text-green-700 hover:bg-gray-200 font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 mt-8"
+              className="inline-block bg-white text-purple hover:bg-gray-200 font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 mt-8"
             >
               Learn More
             </Link>
@@ -208,7 +208,7 @@ function Home() {
               />
             </div>
             <div className="md:w-2/3">
-              <h3 className="text-2xl font-semibold mb-4 text-green-700">Honoring Your Loved Ones with Dignity</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-purple">Honoring Your Loved Ones with Dignity</h3>
               <p className="text-lg mb-4 text-gray-700 leading-relaxed">
                 At Mpiti Funeral, we understand the importance of celebrating a life well-lived. Our comprehensive and personalized funeral services are designed to provide comfort and support during difficult times.
               </p>
@@ -223,7 +223,7 @@ function Home() {
               </p>
               <Link 
                 to="/services"
-                className="inline-block mt-4 bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors duration-300"
+                className="inline-block mt-4 bg-purple text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors duration-300"
               >
                 Explore Our Services
               </Link>
@@ -239,13 +239,13 @@ function Home() {
             {packages.map((pkg, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-2xl font-semibold mb-4">{pkg.name}</h3>
-                <p className="text-xl mb-4 text-green-600">{pkg.price}</p>
+                <p className="text-xl mb-4 text-purple">{pkg.price}</p>
                 {expandedPackage === index ? (
                   <>
                     <ul className="mb-6">
                       {pkg.features.map((feature, i) => (
                         <li key={i} className="mb-2 flex items-start">
-                          <svg className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                          <svg className="w-5 h-5 text-purple mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                           <span>{feature}</span>
                         </li>
                       ))}
@@ -253,7 +253,7 @@ function Home() {
                     <div className="border-t pt-4">
                       <p className="font-semibold mb-2">Pricing:</p>
                       {pkg.pricing.map((price, i) => (
-                        <p key={i} className="text-sm text-green-600">{price}</p>
+                        <p key={i} className="text-sm text-purple">{price}</p>
                       ))}
                     </div>
                   </>
@@ -262,7 +262,7 @@ function Home() {
                 )}
                 <button 
                   onClick={() => togglePackageDetails(index)}
-                  className="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors duration-300"
+                  className="mt-4 bg-purple text-white px-4 py-2 rounded hover:bg-purple transition-colors duration-300"
                 >
                   {expandedPackage === index ? 'Hide Details' : 'Show Details'}
                 </button>
