@@ -31,7 +31,7 @@ function Header() {
       '/contact'].includes(location.pathname);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 bg-green-600 ${isVisible ? 'top-0' : '-top-full'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 bg-white ${isVisible ? 'top-0' : '-top-full'}`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center">
@@ -39,10 +39,10 @@ function Header() {
           </Link>
           <div className="flex items-center">
             <nav className="hidden md:flex space-x-16 text-center mr-8">
-              <Link to="/" className="text-white hover:text-purple-200">Home</Link>
-              <Link to="/about" className="text-white hover:text-purple-200">About</Link>
-              <Link to="/services" className="text-white hover:text-purple-200">Services</Link>
-              <Link to="/contact" className="text-white hover:text-purple-200">Contact</Link>
+              <Link to="/" className="text-purple hover:text-purple-200">Home</Link>
+              <Link to="/about" className="text-purple hover:text-purple-200">About</Link>
+              <Link to="/services" className="text-purple hover:text-purple-200">Services</Link>
+              <Link to="/contact" className="text-purple hover:text-purple-200">Contact</Link>
             </nav>
             <Link
               to="/contact"

@@ -15,7 +15,7 @@ function Home() {
 
   const heroContent = [
     {
-      title: "Welcome to Mpiti Funeral",
+      title: "Welcome to Mpiti Funeral Palor",
       subtitle: "A business with a personal touch"
     },
     {
