@@ -8,9 +8,9 @@ function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const backgroundImages = [
-    '/images/mpitibgimage1.jpg',
-    '/images/mpitibgimage2.jpg',
-    '/images/mpitibgimage3.jpg'
+    '/images/image6.jpg',
+    '/images/image4.jpg',
+    '/images/image5.jpg'
   ];
 
   const heroContent = [
@@ -202,7 +202,7 @@ function Home() {
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
             <div className="md:w-1/3 px-4">
               <img 
-                src="/images/flowers.jpg" 
+                src="/images/coffin.jpg" 
                 alt="Mpiti Funeral Services" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -276,7 +276,7 @@ function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">Our Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {['gallery2.jpg', 'gallery3.jpg', 'gallery4.jpg'].map((image, index) => (
+            {['tent.jpg','image1.jpg', 'gallery3.jpg', 'gallery4.jpg'].map((image, index) => (
               <div key={index} className="flex justify-center overflow-hidden rounded-lg shadow-md">
                 <img 
                   src={`/images/${image}`} 
@@ -289,25 +289,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="payment-stores py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Payment Locations</h2>
-          <div className="flex justify-center items-center space-x-4">
-            <div className="flex-shrink-0">
-              <img src="/images/store1.png" alt="Store 1" className="w-24 h-24 object-contain" />
-            </div>
-            <div className="flex-shrink-0">
-              <img src="/images/store2.jpg" alt="Store 2" className="w-24 h-24 object-contain" />
-            </div>
-            <div className="flex-shrink-0">
-              <img src="/images/store3.jpg" alt="Store 3" className="w-24 h-24 object-contain" />
-            </div>
-            <div className="flex-shrink-0">
-              <img src="/images/store4.jpg" alt="Store 4" className="w-24 h-24 object-contain" />
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </main>
   );
 }
