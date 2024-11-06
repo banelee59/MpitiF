@@ -34,20 +34,16 @@ className="hover:text-gray-300">Contact Us</Link></li>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank"
-rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
+              <a href="https://facebook.com" target="https://www.facebook.com/profile.php?id=100083030304109"rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
                 <FaFacebook />
               </a>
-              <a href="https://twitter.com" target="_blank"
-rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
+              <a href="https://twitter.com" target="_blank"rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
                 <FaTwitter />
               </a>
-              <a href="https://instagram.com" target="_blank"
-rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
                 <FaInstagram />
               </a>
-              <a href="https://linkedin.com" target="_blank"
-rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-gray-300">
                 <FaLinkedin />
               </a>
             </div>
