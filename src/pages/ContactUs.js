@@ -30,24 +30,31 @@ are here to assist you with any inquiries.</h1>
 flex flex-wrap">
         <div className="contact-info w-full md:w-1/2 mb-8 md:mb-0 pr-0 md:pr-8">
           <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-          <div className="bg-purple h-1 w-16 mb-6"></div>
+          <div className="bg-green-600 h-1 w-16 mb-6"></div>
           <div className="group">
-            <h3 className="text-xl font-semibold mb-4 bg-purple text-white py-2 px-4 inline-block transition-all duration-300 group-hover:bg-green ">Enquiries</h3>
+            <h3 className="text-xl font-semibold mb-4 bg-green-600
+text-white py-2 px-4 inline-block transition-all duration-300
+group-hover:bg-green ">Enquiries</h3>
             <div className="space-y-2 transition-all duration-300">
               <p className="flex items-center">
-                <span className="mr-2 text-purple transition-transform duration-300 hover:scale-110">
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
                   <FaPhone />
                 </span>
-                083-488 3908
+                +27 (60) 397-1865
               </p>
+              <p className="ml-6"><strong>After Hours/ Emergency</strong></p>
+              <p className="ml-6">(083) 378-4751</p>
               <p className="flex items-center">
-                <span className="mr-2 text-purple transition-transform duration-300 hover:scale-110">
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
                   <FaEnvelope />
                 </span>
                 mpitifunerals@gmail.com
               </p>
               <p className="flex items-center">
-                <span className="mr-2 text-purpletransition-transform duration-300 hover:scale-110">
+                <span className="mr-2 text-green-600
+transition-transform duration-300 hover:scale-110">
                   <FaMapMarkerAlt />
                 </span>
                 <strong>Business Hours:</strong>
@@ -61,8 +68,9 @@ flex flex-wrap">
 
         <form className="contact-form w-full md:w-1/2" onSubmit={handleSubmit}>
           <h2 className="text-2xl font-bold mb-4">Send Us a Message</h2>
-          <div className="bg-purple h-1 w-16 mb-6"></div>
-          <h3 className="text-xl font-semibold mb-4 bg-purple text-white py-2 px-4 inline-block">Email</h3>
+          <div className="bg-green-600 h-1 w-16 mb-6"></div>
+          <h3 className="text-xl font-semibold mb-4 bg-green-600
+text-white py-2 px-4 inline-block">Email</h3>
           <input
             type="text"
             placeholder="Your Name"
@@ -86,7 +94,9 @@ flex flex-wrap">
             required
             className="w-full mb-4 p-2 border border-gray-300 rounded h-32"
           />
-          <button type="submit" className="bg-purple text-white py-2 px-6 rounded hover:bg-purple transition-colors duration-300">Send Message</button>
+          <button type="submit" className="bg-green-600 text-white
+py-2 px-6 rounded hover:bg-green-700 transition-colors duration-300
+">Send Message</button>
         </form>
       </div>
     </div>
