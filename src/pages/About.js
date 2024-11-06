@@ -45,7 +45,7 @@ function About() {
                 <img src="/images/num2.jpg" alt="Mr. J Smith" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
                 <h3 className="text-xl font-semibold">Name</h3>
                 <p className="font-medium text-purple">Manager</p>
-                <p className="mt-2">Mr. Smith provides guidance and support to families during their time of need.</p>
+                <p className="mt-2">Miss name manages and gives support to families during their time of need.</p>
               </div>
             </div>
           </div>
