@@ -6,14 +6,12 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-between items-center">
-          <div className="w-full md:w-1/2 mb-6 md:mb-0">
+        <div className="flex flex-wrap justify-between items-start space-x-0">
+          <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
-            <p><strong>Location:</strong> Erf 48, Fikile Mlomo Street,
-Mbizana, 4800</p>
             <p><strong>Phone:</strong> +27 (60) 397-1865 </p>
             <p><strong>After Hours/ Emergency</strong></p>
-              <p>(083) 378-4751</p>
+            <p>(083) 378-4751</p>
             <p><strong>Email:</strong> mpitifunerals@gmail.com</p>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
@@ -27,6 +25,11 @@ className="hover:text-gray-300">Our Services</Link></li>
               <li><Link to="/contact"
 className="hover:text-gray-300">Contact Us</Link></li>
             </ul>
+          </div>
+          <div className="w-full md:w-1/4 mb-6 md:mb-0">
+            <h3 className="text-xl font-bold mb-4">Branches</h3>
+            <p><strong>Location: </strong> Erf 48, Fikile Mlomo Street, Mbizana, 4800 (Main branch)</p>
+            <p><strong>Location: </strong> Kokstad 98 Main St, 4700</p>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>

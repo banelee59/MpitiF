@@ -36,15 +36,15 @@ function About() {
           <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl">
               <div className="team-member text-center">
-                <img src="/images/person2.jpg" alt="Mrs. B Mpiti" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
+                <img src="/images/num1.jpg" alt="Mrs. B Mpiti" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
                 <h3 className="text-xl font-semibold">MRS. B MPITI</h3>
-                <p className="font-medium text-purple">Director</p>
+                <p className="font-medium text-purple">Owner</p>
                 <p className="mt-2">With over 20 years of experience, Mrs. Mpiti leads our team with compassion and dedication.</p>
               </div>
               <div className="team-member text-center">
-                <img src="/images/person.jpg" alt="Mr. J Smith" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
-                <h3 className="text-xl font-semibold">MR. J SMITH</h3>
-                <p className="font-medium text-purple">Funeral Director</p>
+                <img src="/images/num2.jpg" alt="Mr. J Smith" className="w-48 h-48 rounded-full mb-4 object-cover mx-auto" />
+                <h3 className="text-xl font-semibold">Name</h3>
+                <p className="font-medium text-purple">Manager</p>
                 <p className="mt-2">Mr. Smith provides guidance and support to families during their time of need.</p>
               </div>
             </div>
